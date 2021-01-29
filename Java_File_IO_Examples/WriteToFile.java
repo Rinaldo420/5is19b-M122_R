@@ -15,6 +15,7 @@ public class WriteToFile {
             String strContent = "This example shows how to write string content to a file";
             File myFile = new File("C:/MyTestFile.txt");
             // check if file exist, otherwise create the file before writing Raoul
+            // check if file exist, otherwise create the file before writing - Bruno
             if (!myFile.exists()) {
                 myFile.createNewFile();
             }
