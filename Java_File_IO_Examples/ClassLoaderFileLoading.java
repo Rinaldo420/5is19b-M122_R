@@ -8,7 +8,9 @@ import java.util.Properties;
 public class ClassLoaderFileLoading {
  
     private static Properties appProp = null;
-     
+    
+    // dies ist ein Kommentar des Teachers
+	
     static {
         try{
             InputStream is =
