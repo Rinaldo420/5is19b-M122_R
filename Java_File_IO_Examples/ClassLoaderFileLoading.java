@@ -15,7 +15,7 @@ public class ClassLoaderFileLoading {
                 ClassLoaderFileLoading.class.getResourceAsStream("/FileName.properties");
             appProp = new Properties();
             appProp.load(is);
-        } catch(IOException ex){
+        } catch(IOException ex){ //Raoul Zalotay
             ex.printStackTrace();
         } catch(Exception ex){
             ex.printStackTrace();
